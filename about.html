@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/images/CAMEROON.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About Us</a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>About Cameroon Cuisine</h2>
+          <p>
+            Welcome to Cameroon Cuisine! My name is Miss Chenemo, and I'm passionate about sharing the vibrant flavors and traditions of Cameroonian food.
+
+            This website is my way to bring the heart of Cameroonian cuisine to your kitchen. I feature authentic recipes from all regions of Cameroon,
+            so whether you're a seasoned cook or just starting your culinary journey, I hope Cameroon Cuisine inspires you to explore the delicious world of Cameroonian food. 
+          </p>
+          <p>
+            Dive into our recipe collection, discover new favorites, and join us in celebrating the rich culinary heritage of Cameroon!
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        <!-- needs fixes insert image -->
+        <img
+          src="assets/images/salad2.webp"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">We offer amazing recipes to the best Cameroonian dishes!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="assets/images/breakfast.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Breakfast</h5>
+            <p>Prep : 10min | Cook : 25min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="assets/images/ekpang.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Ekwang</h5>
+            <p>Prep : 45min | Cook : 90min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="assets/images/jollof.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Jollof</h5>
+            <p>Prep : 15min | Cook : 45min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">CameroonCuisine</span>
+        <!-- credits -->
+        <a href="https://www.johnsmilga.com/"></a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
